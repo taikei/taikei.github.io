@@ -60,7 +60,8 @@ img {
     text-transform: uppercase;
     font-weight: 300;
     position: relative;
-    margin-bottom: 1rem;
+    padding-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .section-heading h1::before,
@@ -96,7 +97,9 @@ img {
     margin-right: 5rem;
 }
 
-
+.paragragh-height{
+    line-height: 2;
+}
 
 
 
@@ -265,11 +268,29 @@ li {
 .profile-img {
     flex: 1;
     margin-right: 5rem;
+    
+}
+
+.circle-img {
+    shape-outside: circle();
+    clip-path: circle();
 }
 
 .about-details {
     flex: 1;
 }
+.about-details-attention{
+    color: #ffe838;
+}
+
+.about-details-link{
+    color: #ffe838;
+}
+
+.about-details-link:hover{
+    color: #fd57bf;
+}
+
 
 .social-media {
     margin-top: 5rem;
@@ -283,13 +304,16 @@ li {
     color: #4267b2;
 }
 
-.fa-twitter-square:hover {
-    color: #38a1f3;
+.fa-linkedin-in:hover {
+    color: #0e76a8;
 }
 
 .fa-github-square:hover {
     color: #bd2c00;
 }
+
+
+
 
 /*End about*/
 
