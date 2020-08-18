@@ -1,4 +1,5 @@
 
+
 // Toggling 'open' class on menu-togler
 $(document).ready(function () {
     $('.menu-toggler').on('click', function () {

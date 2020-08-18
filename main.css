@@ -9,6 +9,7 @@
 html {
     font-size: 10px;
     font-family: 'Roboto', sans-serif;
+    font-weight: 400;
     color: #eee;
 }
 
@@ -103,6 +104,7 @@ img {
 
 
 
+
 /*End reusable*/
 
 /*Start header*/
@@ -139,7 +141,10 @@ li {
 
 
 .nav-link {
-    font-family: 'The Historia Demo', sans-serif;
+    font-family: 'Black Han Sans', sans-serif;
+    font-family: 'Do Hyeon', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
     font-size: 5rem;
     padding: 1rem;
 }
@@ -223,7 +228,7 @@ li {
 
 .landing-text h1 {
     font-size: 20rem;
-    font-family: 'The Historia Demo', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background: linear-gradient(to top, #ffe838, #fd57bf);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -359,6 +364,22 @@ li {
     transform: rotate(-45deg);
 }
 
+#circle1 {
+    width: 80%;
+    height: auto;
+}
+
+#circle2 {
+    width:80%;
+    height: auto;
+}
+
+
+#circle3 {
+    width: 80%;
+    height: auto;
+}
+
 
 /*End services*/
 
@@ -379,12 +400,17 @@ li {
     flex: 1;
 }
 
+.portfolio-img-direct:hover{
+    opacity: .8;
+}
+
+
 .portfolio-description{
     flex: 1;
 }
 
 .portfolio-description h1{
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 300;
     margin: 1rem 0;
 }
@@ -409,6 +435,10 @@ li {
 .portfolio-description .cta:hover{
     color: #2f67cd;
 }
+
+
+
+
 
 
 /*End services*/
@@ -529,6 +559,18 @@ input[type="submit"]:hover{
     color: #221e3f;
     background-color: #ffe838;
 }
+
+
+.contact-info {
+    font-size: 2rem;
+    list-style-type: none;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+
+
 
 
 /*End contact*/
@@ -668,7 +710,7 @@ input[type="submit"]:hover{
     }
 
     .landing-text h6{
-        font-size: 1.4rem;
+        font-size: 2rem;
     }
 
     .nav-link{
@@ -712,6 +754,7 @@ input[type="submit"]:hover{
     .up{
         right: 2rem;
     }
+
 
 }
 /*End media queries*/
